@@ -1,0 +1,566 @@
+﻿<!--
+@using Microsoft.AspNetCore.Identity
+@using AMS.Data
+@inject SignInManager<Employee> SignInManager
+@inject UserManager<Employee> UserManager
+<!DOCTYPE html>
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>@ViewData["Title"] - Accomodation Manangement System</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback"> -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="~/plugins/fontawesome-free/css/all.min.css">
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="~/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="~/dist/css/adminlte.min.css">
+    <link rel="stylesheet" href="~/dist/css/site.css">
+
+
+    <link rel="stylesheet" href="~/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="~/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+    <link rel="stylesheet" href="~/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+
+</head>
+
+<body class="hold-transition sidebar-mini layout-fixed">
+    <!-- Site wrapper -->
+    <div class="wrapper">
+
+        <!-- Navbar -->
+        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+
+            <div class="navbar-nav">
+                <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+            </div>
+
+            <div class="navbar-nav ml-auto">
+                <partial name="_LoginPartial" />
+            </div>
+
+        </nav>
+        <!-- /.navbar -->
+
+        <!-- Main Sidebar Container -->
+        <aside class="main-sidebar sidebar-dark-primary elevation-4" id="sticky-sidebar">
+
+            <a href="/" class="brand-link">
+                <span class="brand-text font-weight-light">AMS</span>
+            </a>
+
+
+            @if (SignInManager.IsSignedIn(User))
+            {
+                if (User.IsInRole("Employee"))
+                {
+                    <!-- Sidebar -->
+                    <div class="sidebar">
+                        <hr />
+                        <nav class="mt-2">
+                            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
+                                data-accordion="false">
+                                <li class="nav-item">
+                                    <a asp-area="" asp-controller="Home" asp-action="EmployeeIndex" class="nav-link list-item">
+                                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                                        <p> Dashboard </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-area="" asp-controller="AcceptVisitor" asp-action="Index" class="nav-link list-item">
+                                        <i class="nav-icon fas fa-blender-phone"></i>
+                                        <p> Visitors </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-area="" asp-controller="EmployeePayment" asp-action="Index"
+                                        class="nav-link list-item">
+                                        <i class="nav-icon fas fa-money-bill"></i>
+                                        <p> Invoices </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-area="" asp-controller="Maintenance" asp-action="TenantIndex"
+                                        class="nav-link list-item">
+                                        <i class="nav-icon fas fa-angle-left"></i>
+                                        <p> Maintenance </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-area="" asp-controller="Communication" asp-action="TenantIndex"
+                                        class="nav-link list-item">
+                                        <i class="nav-icon fas fa-inbox"></i>
+                                        <p> Log Call </p>
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                        </nav>
+                        <!-- /.sidebar-menu -->
+                    </div>
+                    <!-- /.sidebar -->
+                }
+                if (User.IsInRole("Administrator"))
+                {
+                    <!-- Sidebar -->
+                    <div class="sidebar">
+                        <hr />
+                        <nav class="mt-2">
+                            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
+                                data-accordion="false">
+                                <li class="nav-item">
+                                    <a asp-area="" asp-controller="Home" asp-action="Index" class="nav-link list-item">
+                                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                                        <p> Dashboard </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-area="" asp-controller="Customers" asp-action="AdminAdmissionIndex"
+                                        class="nav-link list-item">
+                                        <i class="nav-icon fas fa-file-alt"></i>
+                                        <p> Applications </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-area="" asp-controller="Customers" asp-action="QualityCheckIndex"
+                                        class="nav-link list-item">
+                                        <i class="nav-icon fas fa-user-alt-slash"></i>
+                                        <p> Quality Check </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item list-item">
+                                    <a asp-area="" asp-controller="Customers" asp-action="index" class="nav-link">
+                                        <i class="nav-icon fas fa-users"></i>
+                                        <p> Manage Tenants </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <i class="nav-icon fas fa-lightbulb"></i>
+                                        <p>
+                                            Manage Property Loan
+                                            <i class="right fas fa-angle-left"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview ml-3">
+                                        <li class="nav-item">
+                                            <a asp-controller="Loan" asp-action="index" class="nav-link list-item">
+                                                <i class="fas fa-arrow-right nav-icon"></i>
+                                                <p>Loans</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav nav-treeview ml-3">
+                                        <li class="nav-item">
+                                            <a asp-controller="LoanInstallment" asp-action="index" class="nav-link list-item">
+                                                <i class="fas fa-arrow-right nav-icon"></i>
+                                                <p>Loan Payments</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav nav-treeview ml-3">
+                                        <li class="nav-item">
+                                            <a asp-controller="LoanType" asp-action="index" class="nav-link list-item">
+                                                <i class="fas fa-arrow-right nav-icon"></i>
+                                                <p>Loan Type</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <i class="nav-icon fas fa-home"></i>
+                                        <p>
+                                            Property Master
+                                            <i class="right fas fa-angle-left"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview ml-3">
+                                        <li class="nav-item">
+                                            <a asp-controller="ParkingType" asp-action="index" class="nav-link list-item">
+                                                <i class="fas fa-arrow-right nav-icon"></i>
+                                                <p>Parking Types</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a asp-controller="PropertyType" asp-action="index" class="nav-link list-item">
+                                                <i class="fas fa-arrow-right nav-icon"></i>
+                                                <p>Property Types</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a asp-controller="Parking" asp-action="index" class="nav-link list-item">
+                                                <i class="fas fa-arrow-right nav-icon"></i>
+                                                <p>My Parking</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a asp-controller="Property" asp-action="index" class="nav-link list-item">
+                                                <i class="fas fa-arrow-right nav-icon"></i>
+                                                <p>My Property</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <i class="nav-icon fas fa-building"></i>
+                                        <p>
+                                            Manage Property
+                                            <i class="right fas fa-angle-left"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview ml-3">
+                                        <li class="nav-item">
+                                            <a asp-controller="ManageProperty" asp-action="index" class="nav-link list-item">
+                                                <i class="fas fa-arrow-right nav-icon"></i>
+                                                <p>Rent New Property</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav nav-treeview ml-3">
+                                        <li class="nav-item">
+                                            <a asp-controller="ManageProperty" asp-action="Occupied" class="nav-link list-item">
+                                                <i class="fas fa-arrow-right nav-icon"></i>
+                                                <p>Occupied Property</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a asp-controller="ManageProperty" asp-action="Vaccant" class="nav-link list-item">
+                                                <i class="fas fa-arrow-right nav-icon"></i>
+                                                <p>Vaccant Property</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <i class="nav-icon fas fa-money-bill"></i>
+                                        <p>
+                                            Manage Payments
+                                            <i class="right fas fa-angle-left"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview ml-3">
+                                        <li class="nav-item">
+                                            <a asp-controller="Invoice" asp-action="index" class="nav-link list-item">
+                                                <i class="fas fa-arrow-right nav-icon"></i>
+                                                <p>Payments</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav nav-treeview ml-3">
+                                        <li class="nav-item">
+                                            <a asp-controller="Invoice" asp-action="Unpaid" class="nav-link list-item">
+                                                <i class="fas fa-arrow-right nav-icon"></i>
+                                                <p>Unpaid payments</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a asp-controller="Invoice" asp-action="Overdue" class="nav-link list-item">
+                                                <i class="fas fa-arrow-right nav-icon"></i>
+                                                <p>Overdue payments</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <i class="nav-icon fas fa-hand-holding-water"></i>
+                                        <p>
+                                            Utilities
+                                            <i class="right fas fa-angle-left"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview ml-3">
+                                        <li class="nav-item">
+
+                                            <a asp-controller="Electricity" asp-action="index" class="nav-link list-item">
+                                                <i class="fas fa-arrow-right nav-icon"></i>
+
+                                                <p>Electricity</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav nav-treeview ml-3">
+                                        <li class="nav-item">
+                                            <a asp-controller="MeterBoxType" asp-action="index" class="nav-link list-item">
+                                                <i class="fas fa-arrow-right nav-icon"></i>
+                                                <p>MeterBox Type</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a asp-controller="MeterBox" asp-action="index" class="nav-link list-item">
+                                                <i class="fas fa-arrow-right nav-icon"></i>
+                                                <p>Meter Box</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav nav-treeview ml-3">
+                                        <li class="nav-item">
+                                            <a asp-controller="Water" asp-action="index" class="nav-link list-item">
+                                                <i class="fas fa-arrow-right nav-icon"></i>
+                                                <p>Water</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <i class="nav-icon fas fa-tools"></i>
+                                        <p>
+                                            Housekeeping
+                                            <i class="right fas fa-angle-left"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview ml-3">
+                                        <li class="nav-item">
+                                            <a asp-controller="Cleaning" asp-action="index" class="nav-link list-item">
+                                                <i class="fas fa-arrow-right nav-icon"></i>
+                                                <p>Room Cleaning</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav nav-treeview ml-3">
+                                        <li class="nav-item">
+                                            <a asp-controller="Maintenance" asp-action="index" class="nav-link list-item">
+                                                <i class="fas fa-arrow-right nav-icon"></i>
+                                                <p>Maintenance</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav nav-treeview ml-3">
+                                        <li class="nav-item">
+                                            <a asp-controller="MaintenanceType" asp-action="index" class="nav-link list-item">
+                                                <i class="fas fa-arrow-right nav-icon"></i>
+                                                <p>Maintenance Type</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <i class="nav-icon fas fa-tv"></i>
+                                        <p>
+                                            Manage Assets
+                                            <i class="right fas fa-angle-left"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview ml-3">
+                                        <li class="nav-item">
+                                            <a asp-controller="Asset" asp-action="index" class="nav-link list-item">
+                                                <i class="fas fa-arrow-right nav-icon"></i>
+                                                <p>Assets</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav nav-treeview ml-3">
+                                        <li class="nav-item">
+                                            <a asp-controller="AssetType" asp-action="index" class="nav-link list-item">
+                                                <i class="fas fa-arrow-right nav-icon"></i>
+                                                <p>Asset Type</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <i class="nav-icon fas fa-file-contract"></i>
+                                        <p>
+                                            Reports
+                                            <i class="right fas fa-angle-left"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview ml-3">
+                                        <li class="nav-item">
+                                            <a asp-controller="Report" asp-action="MonthlyPayments" class="nav-link list-item">
+                                                <i class="fas fa-download nav-icon"></i>
+                                                <p>Monthly Payments</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav nav-treeview ml-3">
+                                        <li class="nav-item">
+                                            <a asp-controller="Report" asp-action="MonthlyMaintance" class="nav-link list-item">
+                                                <i class="fas fa-download nav-icon"></i>
+                                                <p>Monthly Maintance</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <i class="nav-icon fas fa-file-contract"></i>
+                                        <p>
+                                            HR
+                                            <i class="right fas fa-angle-left"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview ml-3">
+                                        <li class="nav-item">
+                                            <a asp-controller="Stuff" asp-action="index" class="nav-link list-item">
+                                                <i class="fas fa-download nav-icon"></i>
+                                                <p>Stuff</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav nav-treeview ml-3">
+                                        <li class="nav-item">
+                                            <a asp-controller="Salary" asp-action="index" class="nav-link list-item">
+                                                <i class="fas fa-download nav-icon"></i>
+                                                <p>Salaries</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav nav-treeview ml-3">
+                                        <li class="nav-item">
+                                            <a asp-controller="Timesheet" asp-action="index" class="nav-link list-item">
+                                                <i class="fas fa-download nav-icon"></i>
+                                                <p>Timesheets</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <i class="nav-icon fas fa-file-contract"></i>
+                                        <p>
+                                            Communication
+                                            <i class="right fas fa-angle-left"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview ml-3">
+                                        <li class="nav-item">
+                                            <a asp-controller="Communication" asp-action="Ticket" class="nav-link list-item">
+                                                <i class="fas fa-download nav-icon"></i>
+                                                <p>Tickets</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav nav-treeview ml-3">
+                                        <li class="nav-item">
+                                            <a asp-controller="Communication" asp-action="Email" class="nav-link list-item">
+                                                <i class="fas fa-download nav-icon"></i>
+                                                <p>Emails</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav nav-treeview ml-3">
+                                        <li class="nav-item">
+                                            <a asp-controller="Communication" asp-action="Sms" class="nav-link list-item">
+                                                <i class="fas fa-download nav-icon"></i>
+                                                <p>Sms</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+
+
+                                <li class="nav-item">
+                                    <a asp-controller="Visitor" asp-action="index" class="nav-link list-item">
+                                        <i class="fas fa-blender-phone nav-icon"></i>
+                                        <p>Visitors</p>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a asp-controller="RentType" asp-action="index" class="nav-link list-item">
+                                        <i class="fas fa-money-check nav-icon"></i>
+                                        <p>Rent Type</p>
+                                    </a>
+                                </li>
+                                <a asp-controller="Document" asp-action="ListFiles" class="nav-link list-item">
+                                    <i class="fas fa-file-upload nav-icon"></i>
+                                    <p>Store Documents</p>
+                                </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="https://localhost:5001/Identity/Account/Register?returnUrl=%2F"
+                                        class="nav-link list-item">
+                                        <i class="fas fa-registered nav-icon"></i>
+                                        <p>Register
+                                            Account Logins</p>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </nav>
+                        <!-- /.sidebar-menu -->
+                    </div>
+                    <!-- /.sidebar -->
+                }
+            }
+        </aside>
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+
+            <!-- Content Header (Page header) -->
+            <section class="content-header">
+                <div class="container-fluid"></div><!-- /.container-fluid -->
+            </section>
+
+            <!-- Main content -->
+            <section class="content">
+                <div class="container-fluid">
+
+                    @RenderBody()
+                </div>
+            </section>
+            <!-- /.content -->
+        </div>
+        <!-- /.content-wrapper -->
+
+        <footer class="main-footer">
+            <div class="float-right d-none d-sm-block">
+                <b>Version</b> 1
+            </div>
+            <strong>Copyright &copy; 2023 <a href="www.accomodation.com">accomodation</a>.</strong> All rights
+            reserved.
+        </footer>
+
+        <!-- Control Sidebar -->
+        <aside class="control-sidebar control-sidebar-dark">
+            <!-- Control sidebar content goes here -->
+        </aside>
+        <!-- /.control-sidebar -->
+
+    </div>
+    <!-- ./wrapper -->
+
+    <!-- jQuery -->
+    <script src="~/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="~/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- overlayScrollbars -->
+    <script src="~/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+    <!--AdminLTE App -->
+    <script src="~/dist/js/adminlte.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+
+
+
+    @RenderSection("Scripts", required: false)
+
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+﻿@using AMS.Data
+@model AMS.Models.CustomerVM
+
+@{
+  ViewData["Title"] = "Edit Customer";
+}
+
+<h1>Edit</h1>
+
+
+<hr />
+<div class="row">
+  <div class="col-md-4">
+    <form method="post" enctype="multipart/form-data" asp-controller="Customers" asp-action="Edit"
+      asp-route-id="@Model.Id">
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label asp-for="FirstName"></label>
+          <input type="Name" asp-for="FirstName" class="form-control" id="inputName" placeholder="John">
+        </div>
+        <div class="form-group col-md-6">
+          <label asp-for="LastName" for="input-last-name">Surname</label>
+          <input asp-for="LastName" type="text" class="form-control" id="input-last-namme" placeholder="Doe">
+        </div>
+
+        <div class="form-group col-md-6">
+          <label asp-for="DateOfBirth" for="date-of-birth"></label>
+          <input asp-for="DateOfBirth" type="date" class="form-control" id="date-of-birth" placeholder="12/04/2021">
+        </div>
+        <div class="form-group col-md-6">
+          <label asp-for="IDNumber" for="input-id-number"></label>
+          <input asp-for="IDNumber" type="number" class="form-control" id="input-id-number" placeholder="8103016105084">
+        </div>
+        <div class="form-group col-md-6">
+          <label asp-for="TenantAccess" for="TenantAccess"></label>
+          <input asp-for="TenantAccess" type="number" class="form-control" id="TenantAccess" placeholder="6105084">
+        </div>
+      </div>
+
+      <div class="form-row">
+
+        <div class="form-group col-md-6">
+          <label asp-for="Email" for="email"></label>
+          <input asp-for="Email" type="Name" class="form-control" id="email" placeholder="john@xample.com">
+        </div>
+        <div class="form-group col-md-6">
+          <label asp-for="PhoneNumber" for="phoneNumber"></label>
+          <input asp-for="PhoneNumber" type="number" class="form-control" id="phoneNumber" placeholder="071 234 5678">
+        </div>
+        <div class="form-group col-md-6">
+          <label asp-for="Occupation " for="Occupation "></label>
+          <input asp-for="Occupation " type="text" class="form-control" id="occupation " placeholder="work ">
+        </div>
+        <div class="form-group col-md-6">
+          <label asp-for="HomeAddress" for="next-of-kin-number"></label>
+          <input asp-for="HomeAddress" type="text" class="form-control" id="next-of-kin-number"
+            placeholder="566 45yyy ">
+        </div>
+        <div class="col-md-6">
+
+          <div class="form-group col-md-6">
+            <label>upload</label>
+            <input type="file" class="form-control" name="files" multiple />
+          </div>
+
+          <div class="form-group">
+            <label asp-for="Password" for="Password"></label>
+            <input asp-for="Password" type="text" class="form-control" id="Password" placeholder="Password ">
+          </div>
+        </div>
+
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Save" class="btn btn-success " /> <a class="btn btn-outline-secondary"
+          asp-action="Index">Back to List</a>
+      </div>
+    </form>
+  </div>
+</div>
+
+@section Scripts{
+  <script>
+    $(function () {
+      $(".datepicker").datepicker({
+        dateFomat: "yy-mm-dd"
+      });
+    });
+    // Add the following code if you want the name of the file appear on select
+    $(".custom-file-input").on("change", function () {
+      var fileName = $(this).val().split("\\").pop();
+      $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+    });
+
+  </script>
+}

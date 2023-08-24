@@ -1,0 +1,733 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AMS
+build_property.RootNamespace = AMS
+build_property.ProjectDir = c:\My Stuff\Projects\Vesion2-master\AMS\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\My Stuff\Projects\Vesion2-master\AMS
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWxDaGFuZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxFeHRlcm5hbExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/Lockout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGgyZmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGhSZWNvdmVyeUNvZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGVsZXRlUGVyc29uYWxEYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGlzYWJsZTJmYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRG93bmxvYWRQZXJzb25hbERhdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW5hYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRXh0ZXJuYWxMb2dpbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcR2VuZXJhdGVSZWNvdmVyeUNvZGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUGVyc29uYWxEYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUmVzZXRBdXRoZW50aWNhdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2V0UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2hvd1JlY292ZXJ5Q29kZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcVHdvRmFjdG9yQXV0aGVudGljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1N0YXR1c01lc3NhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfU3RhdHVzTWVzc2FnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/AcceptVisitor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXB0VmlzaXRvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/AdmissionCustomer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaXNzaW9uQ3VzdG9tZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/AdmissionCustomer/CustomerAdmissionCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaXNzaW9uQ3VzdG9tZXJcQ3VzdG9tZXJBZG1pc3Npb25DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/AdmissionUser/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaXNzaW9uVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/AssetType/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXRUeXBlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/AssetType/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXRUeXBlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/AssetType/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXRUeXBlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/AssetType/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXRUeXBlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Asset/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Asset/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXRcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Asset/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Asset/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Bills/Invoice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbHNcSW52b2ljZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Bills/Payments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbHNcUGF5bWVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Cleaning/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xlYW5pbmdcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Cleaning/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xlYW5pbmdcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Cleaning/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xlYW5pbmdcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Cleaning/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xlYW5pbmdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Communication/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbXVuaWNhdGlvblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Communication/CreateEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbXVuaWNhdGlvblxDcmVhdGVFbWFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Communication/CreateSms.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbXVuaWNhdGlvblxDcmVhdGVTbXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Communication/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbXVuaWNhdGlvblxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Communication/Email.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbXVuaWNhdGlvblxFbWFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Communication/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbXVuaWNhdGlvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Communication/Sms.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbXVuaWNhdGlvblxTbXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Communication/TenantCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbXVuaWNhdGlvblxUZW5hbnRDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Communication/TenantDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbXVuaWNhdGlvblxUZW5hbnREZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Communication/TenantIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbXVuaWNhdGlvblxUZW5hbnRJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Communication/Ticket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbXVuaWNhdGlvblxUaWNrZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Customers/AdminAdmissionCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEFkbWluQWRtaXNzaW9uQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Customers/AdminAdmissionIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEFkbWluQWRtaXNzaW9uSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Customers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Customers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Customers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Customers/QualityCheckIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXFF1YWxpdHlDaGVja0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Document/ListFiles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdW1lbnRcTGlzdEZpbGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Document/UploadFiles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdW1lbnRcVXBsb2FkRmlsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Electricity/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxlY3RyaWNpdHlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Electricity/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxlY3RyaWNpdHlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Electricity/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxlY3RyaWNpdHlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Electricity/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxlY3RyaWNpdHlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Emegency/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1lZ2VuY3lcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/EmployeePayment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVQYXltZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Home/Emegency.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbWVnZW5jeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Home/EmployeeIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbXBsb3llZUluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/InvoicePdf/Demo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZVBkZlxEZW1vLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/InvoicePdf/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZVBkZlxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Invoice/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Invoice/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Invoice/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Invoice/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Invoice/Overdue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZVxPdmVyZHVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Invoice/Unpaid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZVxVbnBhaWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/LoanInstallment/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hbkluc3RhbGxtZW50XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/LoanInstallment/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hbkluc3RhbGxtZW50XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/LoanInstallment/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hbkluc3RhbGxtZW50XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/LoanInstallment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hbkluc3RhbGxtZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/LoanType/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblR5cGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/LoanType/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblR5cGVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/LoanType/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblR5cGVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/LoanType/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblR5cGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/LoanType/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblR5cGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Loan/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Loan/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Loan/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Loan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/MaintenanceType/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbnRlbmFuY2VUeXBlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/MaintenanceType/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbnRlbmFuY2VUeXBlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/MaintenanceType/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbnRlbmFuY2VUeXBlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/MaintenanceType/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbnRlbmFuY2VUeXBlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Maintenance/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbnRlbmFuY2VcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Maintenance/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbnRlbmFuY2VcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Maintenance/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbnRlbmFuY2VcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Maintenance/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbnRlbmFuY2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Maintenance/TenantCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbnRlbmFuY2VcVGVuYW50Q3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Maintenance/TenantIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbnRlbmFuY2VcVGVuYW50SW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/ManageProperty/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlUHJvcGVydHlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/ManageProperty/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlUHJvcGVydHlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/ManageProperty/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlUHJvcGVydHlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/ManageProperty/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlUHJvcGVydHlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/ManageProperty/Occupied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlUHJvcGVydHlcT2NjdXBpZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/ManageProperty/Vaccant.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlUHJvcGVydHlcVmFjY2FudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/MeterBoxType/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWV0ZXJCb3hUeXBlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/MeterBoxType/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWV0ZXJCb3hUeXBlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/MeterBoxType/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWV0ZXJCb3hUeXBlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/MeterBoxType/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWV0ZXJCb3hUeXBlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/MeterBox/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWV0ZXJCb3hcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/MeterBox/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWV0ZXJCb3hcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/MeterBox/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWV0ZXJCb3hcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/MeterBox/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWV0ZXJCb3hcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/ParkingType/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ1R5cGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/ParkingType/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ1R5cGVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/ParkingType/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ1R5cGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/ParkingType/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ1R5cGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Parking/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Parking/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Parking/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/PropertyType/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlUeXBlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/PropertyType/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlUeXBlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/PropertyType/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlUeXBlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/PropertyType/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlUeXBlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Property/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Property/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Property/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Property/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/RentType/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudFR5cGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/RentType/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudFR5cGVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/RentType/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudFR5cGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/RentType/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudFR5cGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Report/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Salary/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsYXJ5XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Salary/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsYXJ5XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Salary/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsYXJ5XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Salary/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsYXJ5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Shared/_AdminLTE.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxURS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Stuff/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZmZcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Stuff/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZmZcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Stuff/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZmZcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Templates/InvoicePdf - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVtcGxhdGVzXEludm9pY2VQZGYgLSBDb3B5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Templates/InvoicePdf.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVtcGxhdGVzXEludm9pY2VQZGYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Timesheet/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZXNoZWV0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Timesheet/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZXNoZWV0XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Timesheet/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZXNoZWV0XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Timesheet/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZXNoZWV0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Visitor/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRvclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Visitor/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRvclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Visitor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRvclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Visitor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Water/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2F0ZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Water/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2F0ZXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Water/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2F0ZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Water/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2F0ZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/Water/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2F0ZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/My Stuff/Projects/Vesion2-master/AMS/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

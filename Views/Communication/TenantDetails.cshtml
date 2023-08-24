@@ -1,0 +1,63 @@
+@model AMS.Models.CommunicationVM
+
+<h4>Call Details</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="CommunicationType" class="control-label"></label>
+                <input asp-for="CommunicationType" class="form-control"  disabled="disabled"/>
+                <span asp-validation-for="CommunicationType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmailReceiver" class="control-label"></label>
+                <input asp-for="EmailReceiver" class="form-control"  disabled="disabled"/>
+                <span asp-validation-for="EmailReceiver" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmailSubject" class="control-label"></label>
+                <input asp-for="EmailSubject" class="form-control"  disabled="disabled"/>
+                <span asp-validation-for="EmailSubject" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmailMessage" class="control-label"></label>
+                <input asp-for="EmailMessage" class="form-control"  disabled="disabled"/>
+                <span asp-validation-for="EmailMessage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SmsReceiver" class="control-label"></label>
+                <input asp-for="SmsReceiver" class="form-control"  disabled="disabled"/>
+                <span asp-validation-for="SmsReceiver" class="text-danger"></span>
+            </div>
+                        <div class="form-group">
+                <label asp-for="SmsSubject" class="control-label"></label>
+                <input asp-for="SmsSubject" class="form-control" disabled="disabled" />
+                <span asp-validation-for="SmsSubject" class="text-danger"></span>
+            </div>
+                                    <div class="form-group">
+                <label asp-for="SmsMessage" class="control-label"></label>
+                <input asp-for="SmsMessage" class="form-control" disabled="disabled"/>
+                <span asp-validation-for="SmsMessage" class="text-danger"></span>
+            </div>
+                                                <div class="form-group">
+                <label asp-for="Respond" class="control-label"></label>
+                <input asp-for="Respond" class="form-control" disabled="disabled"/>
+                <span asp-validation-for="Respond" class="text-danger"></span>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

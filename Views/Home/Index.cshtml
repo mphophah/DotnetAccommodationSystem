@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center alert alert-dark">
+    <h1 class="display-4">Accomodation Management System</h1>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <div class="small-box bg-info">
+                <div class="inner">
+                    <h3>@ViewBag.TotalProperty</h3>
+                    <p>TOTAL PROPERTY</p>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-home"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="small-box bg-gradient-success">
+                <div class="inner">
+                    <h3>@ViewBag.OccupiedProperty</h3>
+                    <p>OCCUPIED PROPERTY</p>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-home"></i>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-sm">
+            <div class="small-box bg-info">
+                <div class="inner">
+                    <h3>@ViewBag.VaccantProperty</h3>
+                    <p>VACCANT PROPERTY</p>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-home"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="small-box bg-gradient-success">
+                <div class="inner">
+                    <h3>@ViewBag.UnpaidInvoices</h3>
+                    <p>UNPAID INVOICES</p>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-file-invoice"></i>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>

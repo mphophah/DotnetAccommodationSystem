@@ -1,0 +1,95 @@
+﻿@model AMS.Models.VisitorVM
+
+@{
+    ViewData["Title"] = "Add a Visitor";
+}
+
+<div class="card">
+    <div class="card-header">
+        <div class="wrapper-inner-card d-flex justify-content-between align-items-center">
+            <h3 class="text-uppercase">Add Visitor</h3>
+            <button type="button" class="btn back btn-secondary"><a asp-action="Index">Back</a></button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 card-body">
+            <form asp-action="Create" enctype="multipart/form-data">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label asp-for="CustomerId" class="control-label"></label>
+                        @Html.DropDownListFor(q => q.CustomerId, new SelectList(Model.CustomerList, "Value", "Text"),
+                        "Select Property",
+                        new { @class = "form-control" })
+                        <span asp-validation-for="CustomerId" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label asp-for="PropertyId" class="control-label"></label>
+                        @Html.DropDownListFor(q => q.PropertyId, new SelectList(Model.PropertyList, "Value", "Text"),
+                        "Select Property",
+                        new { @class = "form-control" })
+                        <span asp-validation-for="PropertyId" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label asp-for="ParkingId" class="control-label"></label>
+                        @Html.DropDownListFor(q => q.ParkingId, new SelectList(Model.ParkingList, "Value", "Text"),
+                        "Select Parking",
+                        new { @class = "form-control" })
+                        <span asp-validation-for="ParkingId" class="text-danger"></span>
+                    </div>
+
+                </div>
+                <div class="form-row">
+
+                    <div class="form-group col-md-6">
+                        <label asp-for="FirstName"></label>
+                        <input type="Name" asp-for="FirstName" class="form-control" id="FirstName"
+                            placeholder="FirstName">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label asp-for="LastName"></label>
+                        <input type="Name" asp-for="LastName" class="form-control" id="LastName" placeholder="LastName">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label asp-for="Resoan"></label>
+                        <input type="Name" asp-for="Resoan" class="form-control" id="Resoan" placeholder="Resoan">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label asp-for="PhoneNumber"></label>
+                        <input type="number" asp-for="PhoneNumber" class="form-control" id="PhoneNumber"
+                            placeholder="Phone Number">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label asp-for="CarRegistration"></label>
+                        <input type="Name" asp-for="CarRegistration" class="form-control" id="CarRegistration"
+                            placeholder="Car Registration">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label asp-for="IsChecked">Car</label>
+                        <input type="checkbox" name="IsChecked" value="true" checked="@Model.IsChecked" />
+                    </div>
+                </div>
+
+                <div class="form-group ">
+                    <button type="submit" class="btn btn-primary btn-lg btn-block">Add Visitor</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+
+@section Scripts{
+    <script>
+        $(function () {
+            $(".datepicker").datepicker({
+                dateFomat: "yy-mm-dd"
+            });
+
+        });
+
+    </script>
+}
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

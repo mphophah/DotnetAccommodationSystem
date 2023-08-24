@@ -1,0 +1,64 @@
+﻿@model AMS.Models.EmailVM
+
+@{
+    ViewData["Title"] = "CreateEmail";
+}
+
+<h1>Send Email</h1>
+
+<h4>Email</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CreateEmail">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CommunicationType" class="control-label"></label>
+                <select id="LoanType" asp-for="CommunicationType"
+                    asp-items="@AMS.Utility.Helper.GetCommunicationTypeDropDown()" class="form-control">
+                    <option value="">Select Communication Type</option>
+                </select>
+                <span asp-validation-for="CommunicationType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmailReceiver" class="control-label"></label>
+                <input asp-for="EmailReceiver" class="form-control" />
+                <span asp-validation-for="EmailReceiver" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmailSubject" class="control-label"></label>
+                <input asp-for="EmailSubject" class="form-control" />
+                <span asp-validation-for="EmailSubject" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmailMessage" class="control-label"></label>
+                <input asp-for="EmailMessage" class="form-control" />
+                <span asp-validation-for="EmailMessage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SmsReceiver" class="control-label"></label>
+                <input asp-for="SmsReceiver" class="form-control" />
+                <span asp-validation-for="SmsReceiver" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SmsSubject" class="control-label"></label>
+                <input asp-for="SmsSubject" class="form-control" />
+                <span asp-validation-for="SmsSubject" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SmsMessage" class="control-label"></label>
+                <input asp-for="SmsMessage" class="form-control" />
+                <span asp-validation-for="SmsMessage" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Send" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Email">Back to List</a>
+</div>
+

@@ -1,0 +1,71 @@
+@model AMS.Models.AdmissionVM
+
+<div class="card">
+  <div class="card-header">
+  <div class="wrapper-inner-card d-flex justify-content-between align-items-center">
+            <h3 class="text-uppercase">Add New Applications</h3>
+    <button type="button" class="btn back btn-secondary"><a asp-action="Index">Back</a></button>
+  </div>
+  </div>
+  <div class="col-md-12 card-body">
+    <form asp-action="Create" enctype="multipart/form-data" class="">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+            <label asp-for="FirstName" class="control-label">First Name</label>
+            <input asp-for="FirstName" class="form-control" placeholder="John"/>
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+        </div>
+        <div class="form-group col-md-6">
+            <label asp-for="LastName" class="control-label"> Last Name</label>
+            <input asp-for="LastName" class="form-control" placeholder="Doe"/>
+            <span asp-validation-for="LastName" class="text-danger"></span>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+            <label asp-for="IdNumber" class="control-label">ID Number</label>
+            <input asp-for="IdNumber" class="form-control" />
+            <span asp-validation-for="IdNumber" class="text-danger"></span>
+        </div>
+        <div class="form-group col-md-6">
+            <label asp-for="Email" class="control-label">Email</label>
+            <input asp-for="Email" class="form-control" placeholder="johndoe@example.com"/>
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+      </div>
+
+
+      <div class="form-row">
+        <div class="form-group col-md-6">
+            <label asp-for="MoveInNumber" class="control-label">Move In Number</label>
+            <input asp-for="MoveInNumber" class="form-control" />
+            <span asp-validation-for="MoveInNumber" class="text-danger"></span>
+        </div>
+        <div class="form-group col-md-6">
+            <label asp-for="MoveInDate" class="control-label">Move In Date</label>
+            <input asp-for="MoveInDate" class="form-control" />
+            <span asp-validation-for="MoveInDate" class="text-danger"></span>
+        </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                    <label asp-for="AccommodationIntrested" class="control-label"> Accommodation Interest</label>
+                    <select id="AccommodationIntrested" asp-for="AccommodationIntrested"
+                        asp-items="@AMS.Utility.Helper.GetRoomIntrestedDropDown()"
+                        class="form-control">
+                    <option value="">Select Accomodation Type</option>
+                </select>
+                <span asp-validation-for="AccommodationIntrested" class="text-danger"></span>
+            </div>
+            </div>
+      <div class="form-group mt-3">
+        <input type="submit" value="Create" class="btn btn-primary" />
+      </div>
+    </form>
+  </div>
+  </div>
+
+  @section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

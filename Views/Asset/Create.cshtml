@@ -1,0 +1,81 @@
+﻿@model AMS.Models.AssetVM
+
+@{
+    ViewData["Title"] = "Add a Asset";
+}
+
+<div class="card">
+  <div class="card-header">
+  <div class="wrapper-inner-card d-flex justify-content-between align-items-center">
+            <h3 class="text-uppercase">Add Asset</h3>
+    <button type="button" class="btn back btn-secondary"><a asp-action="Index">Back</a></button>
+  </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 card-body">
+      <form asp-action="Create" enctype="multipart/form-data">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label asp-for="Name"></label>
+            <input type="Name" asp-for="Name" class="form-control" id="Name" placeholder="Name">
+          </div>
+          <div class="form-group col-md-6">
+              <label asp-for="Description"></label>
+              <input type="Name" asp-for="Description" class="form-control e-input" id="Description" placeholder="Description" >
+          </div>
+
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label asp-for="CustomerId" class="control-label"></label>
+                        @Html.DropDownListFor(q => q.CustomerId, new SelectList(Model.CustomerList, "Value", "Text"), "Select Customer Name",
+            new { @class = "form-control" })
+            <span asp-validation-for="CustomerId" class="text-danger"></span>
+          </div>
+
+                        <div class="form-group col-md-6">
+                        <label asp-for="PropertyId" class="control-label"></label>
+                        @Html.DropDownListFor(q => q.PropertyId, new SelectList(Model.PropertyList, "Value", "Text"), "Select Property Name",
+            new { @class = "form-control" })
+                        <span asp-validation-for="PropertyId" class="text-danger"></span>
+          </div>
+        </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label asp-for="AssetTypeId" class="control-label"></label>
+                      @Html.DropDownListFor(q => q.AssetTypeId, new SelectList(Model.AssetTypeList, "Value", "Text"), "Select Asset Type",
+                      new { @class = "form-control" })
+              <span asp-validation-for="AssetTypeId" class="text-danger"></span>
+            </div>
+          </div>
+
+          <div class="form-group ">
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Add New Loan</button>
+          </div>
+      </form>
+    </div>
+  </div>
+
+</div>
+
+
+@section Scripts{
+<script>
+  $(function () {
+    $(".datepicker").datepicker({
+      dateFomat: "yy-mm-dd"
+    });
+
+  });
+  // Add the following code if you want the name of the file appear on select
+  $(".custom-file-input").on("change", function () {
+    var fileName = $(this).val().split("\\").pop();
+    $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+  });
+
+</script>
+}
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

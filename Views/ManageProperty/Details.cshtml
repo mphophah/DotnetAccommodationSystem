@@ -1,0 +1,42 @@
+﻿@model AMS.Models.EditManagePropertyVM
+
+<h4>Manage Property Details</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="RentAmount" class="control-label"></label>
+                <input asp-for="RentAmount" class="form-control"  disabled="disabled"/>
+                <span asp-validation-for="RentAmount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerId" class="control-label"></label>
+                <select asp-for="CustomerId" class="form-control" asp-items="ViewBag.CustomerId" disabled="disabled"></select>
+                <span asp-validation-for="CustomerId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PropertyId" class="control-label"></label>
+                <select asp-for="PropertyId" class="form-control" asp-items="ViewBag.PropertyId" disabled="disabled"></select>
+                <span asp-validation-for="PropertyId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RentTypeId" class="control-label"></label>
+                <select asp-for="RentTypeId" class="form-control" asp-items="ViewBag.RentTypeId" disabled="disabled"></select>
+                <span asp-validation-for="RentTypeId" class="text-danger"></span>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

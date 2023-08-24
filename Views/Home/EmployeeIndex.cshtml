@@ -1,0 +1,40 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center alert alert-dark">
+    <h1 class="display-4">Accomodation Management System</h1>
+</div>
+
+<p>
+    <a asp-action="Safe">Emegency Button</a>
+</p>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <div class="small-box bg-info">
+                <div class="inner">
+                    <h3>@ViewBag.Invoice</h3>
+                    <p>Invoice</p>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-user-plus"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="small-box bg-gradient-success">
+                <div class="inner">
+                    <h3>@ViewBag.Maintenance</h3>
+                    <p>Maintenance</p>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-money-plus"></i>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
